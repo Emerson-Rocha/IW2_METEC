@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let nome = "emerson";
+        let idade  = 30 ;
+        let email = "emerson@xx.com";
+        
+        // DOM, BOM
+         // ESTAREI PEGANDO A REFERENCIA DO PARAGRAFOS
+        //let ref =  document.getElementById("x01");
+        //ref.innerHTML = "ver";
+
+
+    </script>
+</head>
+<body>
+    <h2> Contato </h2>
+    <p id="x01" class="xpto" name=""> </p>
+    <p id="x02" class="xpto" name=""></p>
+    <p id="x03" class="xpto" name=""></p>
+</body>
+</html>
+
+<script>
+  // id
+        //  let ref =  document.getElementById("x01");
+        //  var ref02 = window.document.getElementById("x02");
+        //  let ref03 = document.getElementById("x03");
+ // class
+   let classP = document.getElementsByClassName("xpto"); // array
+ 
+        //  ref.innerHTML =  `nome : ${nome} `;
+        //  ref02.innerHTML = "idade :" + idade;
+        //  ref03.innerHTML = " e-mail : "  + email;
+
+      classP[0].innerHTML =  `nome : ${nome} `;  
+      classP[1].innerHTML =  `email : ${email} `;  
+
+ 
+
+
+</script>
